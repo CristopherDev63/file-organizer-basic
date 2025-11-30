@@ -16,3 +16,27 @@
 * Uso de librerías estándar de Python como `os`, `pathlib`.
 * Se incluirá manejo de errores para fallos básicos.
 * El sistema tendra un sistema de registros de tipo log en archivos de texto con un formato `[fecha y hora] - Archivo movido: [nombre antiguo] -> [carpeta destino]`.
+
+---
+## Instalación Rapida 
+Primero debe de clonar el repositorio del proyecto.
+```bash
+git clone https://github.com/CristopherDev63/file-organizer-basic.git 
+```
+Dentro de del proyecto se debe de crear un entorno virtual y activarlo.
+``` bash
+python -m venv venv 
+```
+Y hay que activarlo.
+**Windows:**
+```bash
+venv\Scripts\activate.bat
+```
+**Unix (Linux/MacOS):**
+```bash
+source venv/bin/activate
+```
+Ya después de haber activado el entorno virtual se debe de instalar las dependencias que se encuentran en el `requirements.txt`.
+```bash
+pip install -r requirements.txt
+```
