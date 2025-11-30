@@ -28,6 +28,7 @@ Dentro de del proyecto se debe de crear un entorno virtual y activarlo.
 python -m venv venv 
 ```
 Y hay que activarlo.
+
 **Windows:**
 ```bash
 venv\Scripts\activate.bat
